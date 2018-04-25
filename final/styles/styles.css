@@ -392,6 +392,13 @@ position: relative;
 	font-weight: lighter;
 }
 
+.contact-container p {
+	margin: 1%;
+	color: #fff;
+	font-weight: lighter;
+	font-size: 140%;
+}
+
 main form input, textarea {
 	font-size: 28px;
 	color: #656c6e;

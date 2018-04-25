@@ -78,14 +78,14 @@
 		<div class="input-container required validate">
 			<label class="input-label label-text" for="first_name"></label>
 
-			<input type="text" name="first_name" id="first_name" placeholder="First Name">
+			<input type="text" name="first_name" id="first_name" placeholder="Offender's First Name">
 
 			<p class="feedback"></p>
 		</div>
 		<div class="input-container required validate">
 			<label class="input-label label-text" for="last_name"></label>
 
-			<input type="text" name="last_name" id="last_name" placeholder="Last Name">
+			<input type="text" name="last_name" id="last_name" placeholder="Offender's Last Name">
 	
 			<p class="feedback"></p>
 		</div>			
@@ -99,7 +99,7 @@
 <!-- message -->
 		<div class="message input-container required">							
 			<label class="input-label label-text" for="message"></label>
-			<textarea name="message" id="message" placeholder="Type Message Here..."></textarea>			
+			<textarea name="message" id="message" placeholder="Please describe the offense that this individual has committed..."></textarea>			
 	
 			<p class="feedback"></p>
 					
@@ -120,7 +120,13 @@
 				<input type="radio" name="forms" id="no">
 				
 				</label>
+				<br>
+				<label for="love">
+					I love Big Brother!
+					<input type="checkbox" name="love" id="love" value="Yes">
+				</label>
 		</div>
+
 
 <!-- submit button -->
 	<button id="form-btn" type="submit">Submit</button>

@@ -1,0 +1,60 @@
+main form input, textarea {
+	font-size: 28px;
+	color: #656c6e;
+	border:none;
+	margin:1%;
+	padding:.4%;
+}
+
+.name {
+	display: inline;
+}
+
+.name input {
+	
+	width: 85%;
+
+}
+
+.subject input {
+	width: 85%;
+	display: block;
+}
+
+.e-mail input {
+	width: 85%;
+
+}
+
+.message textarea {
+	box-sizing: border-box;
+	width: 85%;
+}
+
+.subscribe {
+	margin: 1%;
+	color: #fff;
+	font-weight: lighter;
+}
+
+button {
+	margin: 1%;
+	font-size: 150%;
+	background-color: #acb7be;
+	color: #fff;
+
+	padding: .5%;
+}
+
+.has-error textarea{
+	border-style: solid;
+	border-color: red;
+	opacity: .4;
+
+}
+
+.has-error input{
+	border-style: solid;
+	border-color: red;
+	opacity: .4;
+}

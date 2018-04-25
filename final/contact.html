@@ -10,6 +10,7 @@
 	<title>Contact</title>
 
 	<link rel="stylesheet" type="text/css" href="styles/styles.css">
+	<link rel="stylesheet" type="text/css" href="styles/validation.css">
 	
 </head>
 
@@ -77,7 +78,8 @@
 <!-- first last name -->
 		<div class="input-container name required validate">
 			<label class="input-label label-text" for="first_name"></label>
-	<span>
+
+
 			<input type="text" name="first_name" id="first_name" placeholder="First Name">
 			<p class="feedback"></p>
 		</div>
@@ -87,7 +89,6 @@
 			<input type="text" name="last_name" id="last_name" placeholder="Last Name">
 			<p class="feedback"></p>
 		</div>
-	</span>
 <!--email  -->
 		<div class="e-mail input-container required validate">
 			<label class="input-label label-text" for="e-mail"></label>
@@ -125,8 +126,14 @@
 				<input type="radio" name="forms" id="no">
 				
 				</label>
+				<br>	
+				<label for="love">
+					I love Big Brother!
+					<input type="checkbox" name="love" id="love" value="Yes">
+				</label>
 		</div>
 
+			
 <!-- submit button -->
 	<button id="form-btn" type="submit">Submit</button>
 
