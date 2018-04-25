@@ -1,9 +1,188 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-ca">
+
+<!-- begin head -->
+
 <head>
-	<title></title>
+
+	<meta charset="utf-8">
+	
+	<title>Contact</title>
+
+	<link rel="stylesheet" type="text/css" href="styles/styles.css">
+	
 </head>
+
+<!-- End head -->
+<!-- Begin body section -->
+
 <body>
 
+	<div id="container" class="container">
+
+
+<!-- begin site header -->
+		<header class="site_header clearfix">
+
+<!-- logo -->
+			<div class="logo">
+				<a href="index.html"><img src="images/MT-logo.png" alt="logo"></a>
+			</div>
+
+<!-- begin desktop navigation -->
+					
+			<nav class="main_nav_container desktop_nav clearfix">
+				<ul class="main_nav">
+					<li>
+						<a href="index.html">Home</a>
+					</li>
+								
+					<li>
+						<a href="">Services</a>
+					</li>
+
+					<li>
+						<a href="">About</a>
+					</li>
+
+					<li>
+						<a href="contact.html">Contact</a>
+					</li>
+				</ul>
+			</nav>
+<!-- hamburger menu -->
+			<div class="hamburger">
+				<a href="#">  
+		        	<div class="bar1"></div>
+		        	<div class="bar2"></div>
+		        	<div class="bar3"></div>
+		    	</a>
+		   	</div>
+
+<!-- end  desktop navigation -->
+		</header>
+
+
+<!-- begin main -->
+<main>
+
+<div class="contact-container clearfix">
+
+	<h1><u>Contact</u></h1>
+		<p>Please use the following form to contact us with any questions you may have.</p>
+
+<!-- begin main contact forms -->
+	<form id="htmlForm" action="somepage.php" method="get">
+
+<!-- first last name -->
+		<div class="input-container required validate">
+			<label class="input-label label-text" for="first_name"></label>
+
+			<input type="text" name="first_name" id="first_name" placeholder="First Name">
+		<!-- 	<input type="text" name="last_name" id="last_name" placeholder="Last Name"> -->
+			<p class="feedback"></p>
+		</div>
+<!--email  -->
+		<div class="e-mail input-container required validate">
+			<label class="input-label label-text" for="e-mail"></label>
+			<input type="e-mail" name="e-mail" id="e-mail" placeholder="E-Mail Address">
+		<p class="feedback"></p>
+		</div>						
+
+<!-- subject -->
+		<div class="subject input-container required validate">						<label class="input-label label-text" for="subject"></label>
+			<input type="text" name="subject" id="subject" placeholder="Subject">
+			<p class="feedback"></p>		
+				
+		</div>
+<!-- message -->
+		<div class="message input-container required">							
+			<label class="input-label label-text" for="message"></label>
+			<textarea name="message" id="message" placeholder="Type Message Here..."></textarea>			
+	
+			<p class="feedback"></p>
+					
+		</div>
+	
+<!-- subscribe yes/no -->
+
+		<div class="subscribe">
+			<h3>Subscribe to e-mail notifications on upcoming events</h3>
+				<label for="yes">
+					Yes
+				<input type="radio" name="forms" id="yes" checked>
+
+				</label>
+		
+				<label for="no">
+					No
+				<input type="radio" name="forms" id="no">
+				
+				</label>
+		</div>
+
+<!-- submit button -->
+	<button id="form-btn" type="submit">Submit</button>
+
+</form>
+
+</div>
+
+<!-- end main -->
+</main>
+
+<!-- begin footer -->
+
+		<footer id="footer" class="footer clearfix">
+
+<!-- begin useful links -->
+
+			<div id="useful_links" class="useful_links">
+				<h2><u>Useful Links</u></h2>
+					<ul>
+						<li>
+							<a href="">Link one</a>
+						</li>
+							
+						<li>
+							<a href="">Link two</a>
+						</li>
+
+						<li>
+							<a href="">Link three</a>
+						</li>
+
+						<li>
+							<a href="">Link four</a>
+						</li>
+					</ul>
+			</div>
+<!-- end useful links -->
+
+<!-- begin social media -->
+
+			<div id="social_media" class="social_media">
+
+				<a href="https://twitter.com/"><img src="images/twitter.png" class="twiter" alt="twitter"></a>
+
+				<a href="https://youtube.com/"><img src="images/youtube.png" class="youtube" alt="youtube"></a>
+
+				<a href="https://instagram.com/"><img src="images/instagram.png" class="instagram" alt="instagram"></a>
+
+				<a href="https://facebook.com/"><img src="images/facebook.png" class="facebook" alt="facebook"></a>
+
+			</div>
+
+<!-- end social media -->
+			
+			<div class="copyright">
+				<p>Copyright &copy; 2018 Drew Pidgeon</p>
+			</div>
+
+		</footer>
+
+<!-- end footer -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="scripts/validation.js"></script>
 </body>
 </html>
