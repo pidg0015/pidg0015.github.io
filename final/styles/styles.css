@@ -441,12 +441,15 @@ button {
 }
 
 .has-error textarea{
-	background:red;
+	border-style: solid;
+	border-color: red;
 	opacity: .4;
+
 }
 
 .has-error input{
-	background:red;
+	border-style: solid;
+	border-color: red;
 	opacity: .4;
 }
 /*tablet screen size*/
