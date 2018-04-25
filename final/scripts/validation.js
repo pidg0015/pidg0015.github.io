@@ -12,8 +12,6 @@ function init(){
 }
 
 
-
-
 function required_check() {
 
 	var required_inputs = $('.required input, .required textarea');
@@ -91,12 +89,3 @@ function required_check() {
 		$(checkbox_feedback).fadeIn(300);
 	});
 }
-
-// function validate_input(){
-
-// 	var validate_input = $('.validate input');
-
-// 	$.each(validate_inputs, function(input_index, validate_input) {
-
-// 	});
-// }
