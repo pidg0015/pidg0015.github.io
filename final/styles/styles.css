@@ -1,4 +1,12 @@
 @charset "utf-8"
+@font-face{ 
+	font-family: 'MyWebFont';
+	src: url('WebFont.eot');
+	src: url('WebFont.eot?iefix') format('eot'),
+	     url('WebFont.woff') format('woff'),
+	     url('WebFont.ttf') format('truetype'),
+	     url('WebFont.svg#webfont') format('svg');
+}
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans|Montserrat');
 body {
 	width: 100%;
@@ -77,13 +85,7 @@ nav ul {
 	display: inline-block;
 }
 
-/*.mobile_nav_container {
-	border-style: solid;
-	border-color: red;
-	float: right;
-	display: block;
 
-}*/
 .mobile_nav_container {
 /*	display: block;
 	float: right;
@@ -211,6 +213,7 @@ position: relative;
 #arrow-left {
   border-width: 30px 40px 30px 0;
   border-color: transparent #fff transparent transparent;
+  opacity: .6;
   left: 0;
   margin-left: 30px;
 }
@@ -218,6 +221,7 @@ position: relative;
 #arrow-right {
   border-width: 30px 0 30px 40px;
   border-color: transparent transparent transparent #fff;
+  opacity: .6;
   right: 0;
   margin-right: 30px;
 }
@@ -277,11 +281,16 @@ position: relative;
 	display: none;
 	padding:1% 1% 1% 2%;
 }
-
+.news_desktop h2 {
+	font-size: 200%;
+}
+.feature_desktop h2 {
+	font-size: 170%;
+}
 .news_desktop a {
 	text-decoration: none;
 	color: #e9eaeb;
-	font-size: 125%;
+	font-size: 110%;
 }
 .news_desktop li a:hover {
 	color:white;
@@ -307,6 +316,10 @@ position: relative;
 	color:white;
 	font-size: 25px;
 }
+
+.feature_desktop a {
+	color: white;
+}
 .feature_desktop {
 	color: white;
 	float: right;
@@ -317,7 +330,9 @@ position: relative;
 	display: none;
 	padding:1% 1% 1% 2%;
 }
-
+.feature_mobile a {
+	color: white;
+}
 .feature_mobile {
 	color: white;
 	width: 80%;
@@ -385,9 +400,14 @@ main form input, textarea {
 	padding:.4%;
 }
 
+.name {
+	display: inline;
+}
+
 .name input {
-	display: block;
+	
 	width: 85%;
+
 }
 
 .subject input {
