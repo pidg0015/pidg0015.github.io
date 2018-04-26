@@ -23,7 +23,7 @@ function slideLeft() {
   current--;
 }
 
-
+function slideRight() {
   reset();
   sliderImages[current + 1].style.display = "block";
   current++;
